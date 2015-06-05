@@ -14,6 +14,7 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.IBinder;
 import android.preference.PreferenceManager;
+import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 public class StreamService extends Service {
@@ -38,7 +39,6 @@ public class StreamService extends Service {
     public void onCreate() {
         super.onCreate();
         Log.d(TAG, "onCreate");
-
         // Init the SharedPreferences and Editor
         prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         editor = prefs.edit();
@@ -54,6 +54,7 @@ public class StreamService extends Service {
         n = new Notification();
         //n.icon = R.drawable.ic_launcher;
         n.tickerText = "Buffering";
+        //MessageToActivity("Buffering");
         n.when = System.currentTimeMillis();
 
         Intent nIntent = new Intent(context, MainActivity.class);
@@ -99,6 +100,7 @@ public class StreamService extends Service {
         Context context = getApplicationContext();
         String notifTitle = context.getResources().getString(R.string.app_name);
         String notifMessage = context.getResources().getString(R.string.now_playing);
+       // MessageToActivity("CUT-Radio Playing!");
 
         // n.icon = R.drawable.ic_launcher;
         n.tickerText = notifMessage;
@@ -123,5 +125,18 @@ public class StreamService extends Service {
         editor.commit();
         notificationManager.cancel(notifId);
     }
+
+    //  Broadcast msg
+    /*
+    private void MessageToActivity(String message) {
+        Intent intent = new Intent("progressMessage");
+        sendLocationBroadcast(intent,message);
+    }
+
+    private void sendLocationBroadcast(Intent intent, String msg){
+        intent.putExtra("message", msg);
+        LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
+    }
+*/
 
 }

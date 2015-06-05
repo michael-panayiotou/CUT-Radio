@@ -1,7 +1,10 @@
 package com.example.michael.cut_radio;
 import android.app.Fragment;
+import android.content.BroadcastReceiver;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.content.LocalBroadcastManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,8 +48,9 @@ public class menu1_Fragment extends Fragment {
 
         rootview = inflater.inflate(R.layout.menu1_layout, container, false);
 
-        buttonPlay = (Button)rootview.findViewById(R.id.buttonPlay);
-        buttonStopPlay= (Button)rootview.findViewById(R.id.buttonStopPlay);
+        buttonPlay = (Button) rootview.findViewById(R.id.buttonPlay);
+        buttonStopPlay = (Button) rootview.findViewById(R.id.buttonStopPlay);
+
 
         buttonPlay.setOnClickListener(new View.OnClickListener() {
 
@@ -54,7 +58,7 @@ public class menu1_Fragment extends Fragment {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
 
-                getActivity().startService(new Intent(getActivity(),StreamService.class));
+                getActivity().startService(new Intent(getActivity(), StreamService.class));
                 buttonPlay.setEnabled(false);
             }
         });
@@ -75,10 +79,6 @@ public class menu1_Fragment extends Fragment {
         isPlaying = prefs.getBoolean("isPlaying", false);
         if (isPlaying) buttonPlay.setEnabled(false);
     }
-
-
-
-
 
 
 

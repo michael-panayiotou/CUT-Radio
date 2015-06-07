@@ -176,6 +176,9 @@ public class menu1_Fragment extends Fragment {
         buttonPlay = (Button) rootview.findViewById(R.id.buttonPlay);
         buttonStopPlay = (Button) rootview.findViewById(R.id.buttonStopPlay);
 
+        //***Uncomment for background in fragment
+        //rootview.findViewById(R.id.relativeView1).setBackground(getActivity().getResources().getDrawable(R.drawable.background));
+
     }
 
     // Handle progress dialogue for buffering...

@@ -75,7 +75,7 @@ public class MainActivity extends ActionBarActivity
         super.onDestroy();
 
         try {
-            stopService(new Intent(this,testService.class));
+            stopService(new Intent(this,radioService.class));
 
         } catch (Exception e) {
             e.printStackTrace();

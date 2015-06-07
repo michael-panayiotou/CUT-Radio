@@ -66,7 +66,7 @@ public class menu1_Fragment extends Fragment {
 
         rootview = inflater.inflate(R.layout.menu1_layout, container, false);
         try {
-            streamService = new Intent(getActivity(), testService.class);
+            streamService = new Intent(getActivity(), radioService.class);
             initViews();
             setListeners();
         } catch (Exception e) {
@@ -80,9 +80,9 @@ public class menu1_Fragment extends Fragment {
     }
 
     private void stopMusic() {
-//        getActivity().stopService(new Intent(getActivity(),testService.class));
+//        getActivity().stopService(new Intent(getActivity(),radioService.class));
         try {
-            getActivity().stopService(new Intent(getActivity(),testService.class));
+            getActivity().stopService(new Intent(getActivity(),radioService.class));
 
         } catch (Exception e) {
             e.printStackTrace();

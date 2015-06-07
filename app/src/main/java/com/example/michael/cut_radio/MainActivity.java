@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity
@@ -73,7 +74,15 @@ public class MainActivity extends ActionBarActivity
         Log.i(this.toString(), "onDestroy");
         super.onDestroy();
 
-        stopService(new Intent(this, StreamService.class));
+        try {
+            stopService(new Intent(this,testService.class));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(getApplicationContext(),
+                    e.getClass().getName() + " " + e.getMessage(),
+                    Toast.LENGTH_LONG).show();
+        }
     }
 
     @Override

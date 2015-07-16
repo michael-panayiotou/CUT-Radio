@@ -1,8 +1,13 @@
 <resources>
 
-    <!-- Base application theme. -->
+
+
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBarStyle</item>
     </style>
 
+    <style name="AppTheme.ActionBarStyle" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/grey</item>
+        <!--<item name="android:icon">@mipmap/cutradiologo</item>-->
+    </style>
 </resources>

@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.DialogInterface;
 import android.content.IntentFilter;
+import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -40,9 +41,9 @@ public class menu1_Fragment extends Fragment {
     View rootview;
 
 
-    private Button buttonPlay;
+    private Button buttonPlayStop;
 
-    private Button buttonStopPlay;
+    private button_state buttonState;
 
     String strAudioLink = "cutradio";
 
@@ -52,7 +53,7 @@ public class menu1_Fragment extends Fragment {
     PhoneStateListener listener;
 
     static Context context;
-    boolean isPlaying;
+    static boolean isPlaying=false;
     Intent streamService;
     SharedPreferences prefs;
 
@@ -60,11 +61,33 @@ public class menu1_Fragment extends Fragment {
     boolean mBufferBroadcastIsRegistered;
     private ProgressDialog pdBuff = null;
 
-    @Nullable
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+
+        if(isPlaying){
+
+            buttonPlayStop.setBackgroundResource(R.mipmap.pause);
+//            Toast.makeText(getActivity(),"true!",Toast.LENGTH_SHORT).show();
+
+        }
+        else
+        {
+
+            buttonPlayStop.setBackgroundResource(R.mipmap.play);
+//            Toast.makeText(getActivity(),"false!",Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         rootview = inflater.inflate(R.layout.menu1_layout, container, false);
+
+        buttonState=button_state.PLAY;
         try {
             streamService = new Intent(getActivity(), radioService.class);
             initViews();
@@ -79,10 +102,12 @@ public class menu1_Fragment extends Fragment {
         return rootview;
     }
 
+
+
     private void stopMusic() {
 //        getActivity().stopService(new Intent(getActivity(),radioService.class));
         try {
-            getActivity().stopService(new Intent(getActivity(),radioService.class));
+            getActivity().stopService(new Intent(getActivity(), radioService.class));
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -90,8 +115,9 @@ public class menu1_Fragment extends Fragment {
                     e.getClass().getName() + " " + e.getMessage(),
                     Toast.LENGTH_LONG).show();
         }
-        buttonStopPlay.setEnabled(false);
-        buttonPlay.setEnabled(true);
+        buttonState=buttonState.STOP;
+        isPlaying=false;
+
     }
 
     private void startMusic() {
@@ -117,9 +143,9 @@ public class menu1_Fragment extends Fragment {
                         Toast.LENGTH_LONG).show();
             }
 
+            buttonState=buttonState.STOP;
+            isPlaying=true;
 
-            buttonStopPlay.setEnabled(true);
-            buttonPlay.setEnabled(false);
         } else {
             AlertDialog alertDialog = new AlertDialog.Builder(getActivity()).create();
             alertDialog.setTitle("Network Not Connected...");
@@ -146,35 +172,44 @@ public class menu1_Fragment extends Fragment {
         else
             isOnline = false;
     }
-    public void getPrefs() {
-        isPlaying = prefs.getBoolean("isPlaying", false);
-        if (isPlaying) buttonPlay.setEnabled(false);
-    }
 
     public void setListeners(){
 
-        buttonPlay.setOnClickListener(new View.OnClickListener() {
+        buttonPlayStop.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                startMusic();
-
-            }
-        });
-
-        buttonStopPlay.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                stopMusic();
+                buttonStateChanged();
             }
         });
 
     }
+    public enum button_state {
+        PLAY, STOP;
+    }
+
+    public void buttonStateChanged(){
+
+        if(buttonState==buttonState.PLAY){
+
+            startMusic();
+            buttonState=buttonState.STOP;
+            buttonPlayStop.setBackgroundResource(R.mipmap.pause);
+
+        }
+        else
+        {
+            stopMusic();
+            buttonState=buttonState.PLAY;
+            buttonPlayStop.setBackgroundResource(R.mipmap.play);
+        }
+    }
 
     private void initViews(){
-        buttonPlay = (Button) rootview.findViewById(R.id.buttonPlay);
-        buttonStopPlay = (Button) rootview.findViewById(R.id.buttonStopPlay);
+
+        buttonPlayStop = (Button) rootview.findViewById(R.id.btnPlayStop);
+
+        buttonPlayStop.setBackgroundResource(R.mipmap.play);
 
         //***Uncomment for background in fragment
         //rootview.findViewById(R.id.relativeView1).setBackground(getActivity().getResources().getDrawable(R.drawable.background));

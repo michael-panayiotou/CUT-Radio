@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@mipmap/cutradiologo"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="vertical">
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/splash_size"
+        android:layout_height="@dimen/splash_size"
+        android:background="@drawable/splash"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/cutingedgelogo"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/splash_text"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingTop="10dp"
+        android:textSize="25dp"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+</FrameLayout>

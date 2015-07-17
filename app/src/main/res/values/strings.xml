@@ -2,8 +2,8 @@
     <string name="app_name">CUT Radio</string>
 
     <string name="title_section1">Listen Live!</string>
-    <string name="title_section2">About</string>
-    <string name="title_section3">Principle</string>
+    <string name="title_section2">Principle</string>
+    <string name="title_section3">About</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -17,10 +17,94 @@
     <string name="stop">Stop</string>
     <string name="now_playing">RADIO NAME is now playing</string>
     <string name="buffering">Buffering…</string>
+    <string name="splash_text">Official CUT-Radio streaming app </string>
+    <string name="developer">Developer: Michael Panayiotou </string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
 
     <string name="hello_world">Hello world!</string>
+
+
+ <string name="html_gr">
+        <![CDATA[
+        								<div id="webs-bin-516bb8970cf23713a42fe0d3" class="webs-bin" style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman'; font-size: medium; line-height: 16px; vertical-align: baseline; position: relative; color: #666666;">
+<div class="webs-bin-wrap" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">
+<div class="webs-container webs-module-text " style="margin: 0px; padding: 10px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">
+<div class="webs-text " style="margin: 0px; padding: 0px; border: 0px; font-family: Arial, sans-serif; font-size: 12px; font-style: inherit; font-variant: inherit; line-height: 20px; vertical-align: baseline; min-height: 21px; word-wrap: break-word;">
+<h2 style="border: 0px; margin: 0px; padding: 12px 0px; outline: 0px; vertical-align: baseline; color: #666666; font-size: 26px; font-family: 'Alegreya Sans', sans-serif; line-height: 24px; text-rendering: optimizelegibility; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">Άρθρο 19 Οικουμενικής Διακήρυξης Ανθρωπίνων Δικαιωμάτων</h2>
+<p> </p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: right;"><span class="wz-italic" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: italic; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">«Κάθε άτομο έχει το δικαίωμα της ελευθερίας της γνώμης και της έκφρασης, το δικαίωμα να μην υφίσταται δυσμενείς συνέπειες για τις απόψεις του, το δικαίωμα να αναζητεί, να λαμβάνει και να διαδίδει πληροφορίες και ιδέες, με οποιοδήποτε μέσο έκφρασης από και προς όλο τον κόσμο»</span></p>
+</div>
+</div>
+</div>
+</div>
+        <div id="webs-bin-516bb8b60cf23713a42fe0ec" class="webs-bin" style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman'; font-size: medium; line-height: 16px; vertical-align: baseline; position: relative; color: #666666;">
+<div class="webs-bin-wrap" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">
+<div class="webs-container webs-module-text " style="margin: 0px; padding: 10px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">
+<div class="webs-text " style="margin: 0px; padding: 0px; border: 0px; font-family: Arial, sans-serif; font-size: 12px; font-style: inherit; font-variant: inherit; line-height: 20px; vertical-align: baseline; min-height: 21px; word-wrap: break-word;">
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;"> </p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Το Cut Radio είναι ραδιόφωνο Κοινότητας που στόχο έχει την συμμετοχή και εκπροσώπηση των μελών της πανεπιστημιακής κοινότητας στην δημόσια σφαίρα και την ενεργή ένταξή τους στην κοινωνία.</p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Το Cut Radio βασίζεται στο τρίπτυχο «ελευθερία λόγου», «κοινωνική ισότητα», «ενίσχυση μη επαρκώς εκπροσωπούμενων ομάδων».</p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Το Cut Radio λειτουργεί ως χώρος εκπαίδευσης ενισχύοντας παράλληλα τις δυνατότητες εργοδότησης των μελών της κοινότητας στα ΜΜΕ.</p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Το Cut Radio είναι Μέσο μη κερδοσκοπικού χαρακτήρα, λειτουργεί κυρίως με εθελοντές και ενισχύει την εξοικείωσή των συμμετεχόντων με τις τεχνολογίες του ραδιοφώνου, του διαδικτύου, του ήχου και την σύγκλισή τους.</p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Η κοινότητα του  Cut Radio αποτελεί:</p>
+<ol class="style-text" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; list-style: inherit inside inherit;">
+<li style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Ομάδα έκφρασης των θεμάτων που απασχολούν την φοιτητική και πανεπιστημιακή κοινότητα του Τεχνολογικού Πανεπιστημίου Κύπρου.</li>
+<li style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Σημείο αναφοράς για τη δημιουργία δικτύου με την πόλη της Λεμεσού και τις κοινότητές της.</li>
+<li style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Συνεκτικό πόλο για την δημιουργία διεθνών φοιτητικών και πανεπιστημιακών δικτύων με σκοπό την προώθηση της παραγωγής και έρευνας.</li>
+</ol>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Το Cut Radio λειτουργεί ως καταλύτης για την τοπική δημιουργικότητα καθώς βοηθά να αναδειχθούν πρωτοποριακές πλατφόρμες για τον πειραματισμό νέων ιδεών και αντιλήψεων. Το ακροατήριο της πόλης της Λεμεσού αποτελεί ένα πεδίο δοκιμής εναλλακτικών προτάσεων αναφορικά με περιεχόμενο που δεν εκπέμπεται από τα δημόσια και ιδιωτικά Μέσα.</p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;">Τα μέλη της κοινότητας που επιθυμούν να ασχοληθούν με τα κοινά ή ακόμη να δοκιμαστούν στην αγορά εργασίας μπορούν να πειραματιστούν μέσω της σχέσης και της ανταλλαγής με το ακροατήριο του  Cut Radio.</p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+
+</div>
+</div>
+</div>
+</div>
+        ]]>
+    </string>
+
+     <string name="html_en">
+        <![CDATA[
+        								<div id="webs-bin-516bb8970cf23713a42fe0d3" class="webs-bin" style="margin: 0px; padding: 0px; border: 0px; font-family: 'Times New Roman'; font-size: medium; line-height: 16px; vertical-align: baseline; position: relative; color: #666666;">
+<div class="webs-bin-wrap" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">
+<div class="webs-container webs-module-text " style="margin: 0px; padding: 10px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">
+<div class="webs-text " style="margin: 0px; padding: 0px; border: 0px; font-family: Arial, sans-serif; font-size: 12px; font-style: inherit; font-variant: inherit; line-height: 20px; vertical-align: baseline; min-height: 21px; word-wrap: break-word;">
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+<h2 style="border: 0px; margin: 0px; padding: 12px 0px; outline: 0px; vertical-align: baseline; color: #666666; font-size: 26px; font-family: 'Alegreya Sans', sans-serif; line-height: 24px; text-rendering: optimizelegibility; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><strong>Article 19 of the Universal Declaration of Human Rights</strong></h2>
+<p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; text-align: justify;"> </p>
+<div style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666; text-align: right;"><span style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">"Every person has the right of liberty, opinion and expression, the right not to suffer from negative effects by their opinions, the right to seek, receive and impart information and ideas through any expression medium, from and to-all around the world »</span></div>
+<div style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666; text-align: right;"><span style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;"> </span></div>
+<div style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666; text-align: right;"><span style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;"> </span></div>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666;">Cut Radio is a Community radio that aims on the participation and representation among the university community members, in the public sphere and the active inclusion of its member in the society.</p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666;"> </p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666; text-align: justify;">Cut Radio is based on the motto "freedom of speech", "social equality", "enhance poorly represented groups."<br />Cut Radio acts as a training area while also enhancing the employment possibilities of its community members in the media. </p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666; text-align: justify;">Cut Radio is a non-profit medium, it mainly works with volunteers and enhances the participants' familiarity with the technologies of radio, Internet, audio and their convergence.</p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666; text-align: justify;"> </p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666;">The community of Cut Radio works as a:<br />- Group, that allows the student and academic community of Cyprus University of Technology to express their concerns.</p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666;">- Benchmark, that helps on a network establishment within Limassol and its communities.<br />- Consistent center, so student and academic international networks can be created with higher aim the promotion of production and research.</p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666;"> </p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666;">Cut Radio acts as a catalyst for local creativity, as it helps to highlight innovative platforms for experimentation with new ideas and concepts. The audience of Limassol is a test of alternative proposals in relation to content which is not transmitted by the public and private media.</p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666;">Community members who wish to deal with the public or even to test the labor market can experiment with the relationship and exchange with the Cut Radio’s audience.</p>
+<p style="margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border: 0px; font-family: Arial, sans-serif; line-height: 20px; vertical-align: baseline; color: #666666;"> </p>
+</div>
+</div>
+</div>
+</div>
+        ]]>
+    </string>
+
 </resources>

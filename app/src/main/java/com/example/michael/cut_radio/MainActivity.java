@@ -95,10 +95,10 @@ public class MainActivity extends ActionBarActivity
                 objFragment = new menu1_Fragment();
                 break;
             case 1:
-                objFragment = new menu2_Fragment();
+                objFragment = new menu3_Fragment();
                 break;
             case 2:
-                objFragment = new menu3_Fragment();
+                objFragment = new menu2_Fragment();
                 break;
 
         }

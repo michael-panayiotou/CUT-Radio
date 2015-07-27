@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/relativeView1"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="#ffd8dada">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Listen Live!"
+        android:text="Tap and listen to CUT Radio Live!"
         android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
 
 
     <Button
         android:layout_width="@dimen/box_size"
         android:layout_height="@dimen/box_size"
         android:id="@+id/btnPlayStop"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center"
         android:background="@mipmap/play"
 
         />
-</LinearLayout>
+</FrameLayout>

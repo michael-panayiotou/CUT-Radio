@@ -360,11 +360,12 @@ public class radioService extends Service implements OnCompletionListener,
     private void initNotification() {
         String ns = Context.NOTIFICATION_SERVICE;
         NotificationManager mNotificationManager = (NotificationManager) getSystemService(ns);
-        int icon = R.drawable.icon;
+        int icon = R.drawable.radiologo;
         CharSequence tickerText = "CUT Radio";
         long when = System.currentTimeMillis();
-        Notification notification = new Notification(icon, tickerText, when);
+        Notification notification = new Notification();
         notification.flags = Notification.FLAG_ONGOING_EVENT;
+        notification.icon = R.drawable.radiologo;
         Context context = getApplicationContext();
         CharSequence contentTitle = "Live";
         CharSequence contentText = "Listen To CUT Radio Live";

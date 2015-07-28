@@ -1,4 +1,4 @@
-package com.example.michael.cut_radio;
+package com.cutingedge.cut.radio;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;

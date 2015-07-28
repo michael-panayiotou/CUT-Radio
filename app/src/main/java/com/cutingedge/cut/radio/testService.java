@@ -1,4 +1,4 @@
-package com.example.michael.cut_radio;
+package com.cutingedge.cut.radio;
 
         import java.io.IOException;
         import android.app.Notification;

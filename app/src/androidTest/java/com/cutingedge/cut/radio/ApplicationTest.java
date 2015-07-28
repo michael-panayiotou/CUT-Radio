@@ -1,4 +1,4 @@
-package com.example.michael.cut_radio;
+package com.cutingedge.cut.radio;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

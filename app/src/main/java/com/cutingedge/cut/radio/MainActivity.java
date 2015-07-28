@@ -1,4 +1,4 @@
-package com.example.michael.cut_radio;
+package com.cutingedge.cut.radio;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,12 +6,8 @@ import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.telephony.PhoneStateListener;
-import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.app.Fragment;

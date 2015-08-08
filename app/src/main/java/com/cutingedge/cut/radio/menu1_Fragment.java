@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.DialogInterface;
 import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
@@ -147,13 +148,11 @@ public class menu1_Fragment extends Fragment {
     private void checkConnectivity() {
         ConnectivityManager cm = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
 
-        if (cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE)
-                .isConnectedOrConnecting()
-                || cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI)
-                .isConnectedOrConnecting())
-            isOnline = true;
+        NetworkInfo ni = cm.getActiveNetworkInfo();
+        if(ni==null)
+            isOnline=false;
         else
-            isOnline = false;
+            isOnline=true;
     }
 
     public void setListeners(){
